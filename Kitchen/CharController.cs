@@ -7,7 +7,7 @@ public class CharController : MonoBehaviour {
 	public float m_Speed = 10f;
 	public float m_TurnSpeed = 100f;
 
-	private Transform thing;
+	//private Transform thing;
 	private Rigidbody m_Rigidbody;
 	private float m_MovementInputValue;
 	private float m_TurnInputValue;
@@ -35,9 +35,9 @@ public class CharController : MonoBehaviour {
 			anim.SetBool("isWalking", false);
 		}
 
-		if (thing != null) {
+		//if (thing != null) {
 			// Do pick up and drop down
-		}
+		//}
 	}
 
 	// character move
